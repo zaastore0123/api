@@ -481,5 +481,4 @@ app.get("/", (req, res) => {
 // ======================
 
 // Hapus atau komentari app.listen() yang lama
-const PORT = 3000;
-app.listen(PORT, () => console.log(`🚀 System Online`));
+module.exports = app;
