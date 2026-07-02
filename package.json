@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@studio-freight/lenis": "^1.0.42",
+    "axios": "^1.16.0",                                                    "axios-cookiejar-support": "^7.0.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "framer-motion": "^12.40.0",
+    "gsap": "^3.15.0",
+    "https": "^1.0.0",
+    "lucide-react": "^1.16.0",
+    "node-fetch": "^3.3.2",
+    "three": "^0.184.0",
+    "tough-cookie": "^6.0.1"
+  },
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {                                                         "test": "test"
+  },                                                                     "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
