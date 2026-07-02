@@ -8,6 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 // ==================== API XVID ====================
+app.get("/test", (req, res) => {
+  res.json({ status: "ok" });
+});
+
 app.get("/api/xvid", async (req, res) => {
     const page = parseInt(req.query.page) || 1;
     const all = req.query.all;
