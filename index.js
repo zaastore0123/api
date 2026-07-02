@@ -898,19 +898,4 @@ app.use((req, res) => {
 
 // ==================== START SERVER ====================
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log("  _  __                 _   _ _____  ");
-    console.log(" | |/ /___ _ _ _ __  __| | | | ____| ");
-    console.log(" | ' // _ \\ | | '_ \\/ _\\ | | |  _|   ");
-    console.log(" | . \\  __/ |_| | | | (_|| |_| | |___ ");
-    console.log(" |_|\\_\\___|\\__,_|_| |_|\\__/ \\___/|_____||");
-    console.log("");
-    console.log("  Server running on http://localhost:" + PORT);
-    console.log("  Endpoints:");
-    console.log("    GET /                -> Dashboard");
-    console.log("    GET /api/xvid        -> XVID Video");
-    console.log("    GET /api/xvid/random -> XVID Random");
-    console.log("    GET /api/tiktok      -> TikTok DL");
-    console.log("    GET /api/unli-ai     -> AI Reasoning");
-    console.log("");
-});
+module.exports = app;
